@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .dashboard_body{
+      height: auto;
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+  }
+  .aside_section {
+    width: 300px;
+    height: 100%;
+    background: #E3EDF7;
+    z-index: 10055;
+    display: block;
+    /* margin-left: -175px; */
+    transition: margin-left 0.3s linear;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    box-shadow:  -5px -5px 10px rgba(255, 255, 255, 0.7), 5px 5px 10px rgba(12, 0, 58, 0.1);
+  }
+  /* .aside_section:hover {
+    margin-left: 0px;
+  } */
+  .heading{
+      margin-top: 48px !important;
+      margin-left: 40px !important;
+      margin-bottom: 43px !important;
+  }
+  .home_div{
+      width: 100%;
+      display: flex;
+      padding:5px 40px ;
+      
+  }
+  .desc{
+    padding-left: 8%;
+  }
+  .side_toggle{
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 33px;
+margin-bottom: 50px;
+  }
+  .los_tactics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.los_box{
+  width: 260px;
+  height: 384px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: #E3EDF7;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.4), 5px 5px 10px rgba(12, 0, 58, 0.1);
+  margin-top: 67px;
+}
+.blub_div{
+  display: flex;
+  justify-content: start;
+  margin-top: 13px;
+}
+.blub_img{
+  margin-left: 22px;
+}
+.box_desc{
+  margin-left: 24px;
+}
+.box_headings{
+  margin-left: 35px;
+  margin-top: 43px;
+}
+.heading1{
+  margin-top: 29px;
+}
+.open_button{
+  position: absolute;
+  margin-top: 120px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  width: 60px;
+}
