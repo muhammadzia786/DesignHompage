@@ -58,6 +58,7 @@
   align-items: center;
   font-size: 16px !important;
   line-height: 22px !important;
+  color: #3d4465 !important;
 }
 
 .btn_tech {
@@ -96,23 +97,24 @@
 }
 
 .box_ImarkIcon {
-  width: 50px;
-
-  height: 50px;
+    width: 40px;
+  
+  display: flex;
+  /* justify-content: end; */
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  box-shadow: 6px 6px 12px 0px rgba(12, 0, 58, 10%),
+    -6px -6px 12px 0px rgba(255, 255, 255, 50%);
+  height: 40px;
 
-  background: #e3edf7;
-  box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
-    6px 6px 12px rgba(12, 0, 58, 0.1);
-  border-radius: 30px !important;
-  margin-right: 20px;
+ 
 }
 
-.ImarkIcon {
-  opacity: 0.7;
-  padding: 12px 20px 12px 20px;
-}
+
 
 .box_history {
   display: flex;
@@ -152,6 +154,7 @@
   flex-direction: flex-end !important;
   justify-content: flex-end !important;
   margin-right: 40px;
+  margin-top: 30px !important;
 }
 
 .box_MainInputsComponent {
@@ -159,7 +162,7 @@
   max-height: 280px;
   flex-direction: column;
   /* overflow-y: scroll; */
-  margin-top: 71px !important;
+  /* margin-top: 71px !important; */
   margin-bottom: 59px !important;
   overflow-y: auto;
   scrollbar-gutter: stable;
