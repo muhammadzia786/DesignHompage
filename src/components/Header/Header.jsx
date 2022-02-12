@@ -50,7 +50,7 @@ const Header = () => {
         </div>
         {/* <UserInputSection /> */}
         {/* <UserOutputSection /> */}
-        <TechnologySection />
+        {/* <TechnologySection /> */}
       </div>
 
 
