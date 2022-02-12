@@ -5,6 +5,10 @@
   }
 .home_section{
     display:flex;
+    background-color: #E3EDF7;
+    /* width: 100% !important; */
+    /* max-width: 1620px !important; */
+    /* height:"100vh";  */
     
 }
 .desc5{
