@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./userinputsection.css"
-import axios from "axios";
+// import axios from "axios";
 import { DataArray1 } from "./DataArray"
 import LeftArrow from "../../assets/images/leftArrow.png"
 import I from "../../assets/images/i.png"
@@ -52,12 +52,12 @@ const UserInputSection = () => {
         }
         // console.log("output object", obj)
 
-        try {
-            let response = await axios.post("https://localhost:4000/api/save", obj)
-            console.log("response", response.data)
-        } catch (error) {
-            console.log("error", error)
-        }
+        // try {
+        //     let response = await axios.post("https://localhost:4000/api/save", obj)
+        //     console.log("response", response.data)
+        // } catch (error) {
+        //     console.log("error", error)
+        // }
 
     }
 
