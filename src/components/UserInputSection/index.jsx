@@ -14,13 +14,28 @@ const UserInputSection = () => {
         setDataArray(arr)
     }
     const isValidateAll = () => {
+        let flag = true;
         DataArray.map((items, index) => {
-            Object.keys(items.obj).map((button, key) => items.obj[button] === "" ? setIsValidate(false) : setIsValidate(true))
-        }
-        )
-        return isValidate;
-    }
+            if (index === 1 || index === 18) {
+                console.log("1,18", index)
+            } else {
+                Object.keys(items.obj).map((button, key) =>
+                    items.obj[button] === "" ? flag = false : null
+                );
+            }
+            //   if (index !== 1) {
+            //     Object.keys(items.obj).map((button, key) =>
+            //       items.obj[button] === "" ? (flag = false) : (flag = true)
+            //     );
+            //   } else {
+            //     console.log("====================================");
+            //     console.log();
+            //     console.log("====================================");
+            //   }
+        });
 
+        return flag;
+    };
     const handelSubmit = async () => {
         const obj = {};
         let keyArray = [
@@ -55,7 +70,6 @@ const UserInputSection = () => {
         ]
         if (isValidateAll()) {
             for (let i = 0; i < DataArray.length; i++) {
-                console.log(i)
                 obj[keyArray[i]] = DataArray[i].obj;
             }
             // console.log("output object", obj)
