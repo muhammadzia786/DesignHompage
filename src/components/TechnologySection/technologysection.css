@@ -1,0 +1,343 @@
+.box_maintecth {
+  background-color: #e3edf7;
+  width: 100% !important;
+  padding-right: 96px;
+  padding-left: 30px;
+  /* max-width: 1620px !important; */
+  /* height:"100vh";  */
+}
+
+.typo_LossTech {
+  font-family: Segoe UI !important ;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  color: #354e5c !important;
+}
+
+.box_inputComponent {
+  display: flex;
+  /* justify-content: space-around; */
+  /* flex-direction: column; */
+  margin-bottom: 35px;
+  height: 100px;
+}
+
+.typo_losTactics {
+  font-size: 30px !important;
+  line-height: 40px !important;
+  /* margin-top: 38px !important; */
+  /* margin-left: 40px !important; */
+}
+
+.typo_techCalculation {
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 75px !important;
+  /* margin-left: 60px !important; */
+}
+.btn_three {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 1000px;
+  margin: 90px 0px 56px 0px !important;
+  /* margin-top: 90px !important; */
+}
+
+.property_shadowRadius {
+  width: 271px !important;
+  height: 60px !important;
+  background: #e3edf7 !important ;
+  box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
+    6px 6px 12px rgba(12, 0, 58, 0.1) !important;
+  border-radius: 10px !important;
+  text-transform: none !important;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+
+.btn_tech {
+  color: #3d4465 !important;
+}
+
+.btn_advantDisadvant {
+  color: #3d4465 !important;
+}
+.box_mainNewCalulation {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 1494px;
+  width: 100%; */
+  align-items: center;
+  /* margin-right: 96px !important; */
+  /* margin-left: 30px !important ; */
+  background: #e3edf7;
+  box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
+    6px 6px 12px rgba(12, 0, 58, 0.1);
+  border-radius: 20px;
+}
+.typo_NewCalcultation {
+  width: 181px;
+  margin-left: 30px !important;
+  font-size: 24px !important;
+  line-height: 32;
+}
+
+.box_btnIcon {
+  display: flex;
+  align-items: center;
+}
+.btn_StartCalculations {
+  margin: 18px 10px 21px 18px !important;
+}
+
+.box_ImarkIcon {
+  width: 50px;
+
+  height: 50px;
+  display: flex;
+  justify-content: center;
+
+  background: #e3edf7;
+  box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
+    6px 6px 12px rgba(12, 0, 58, 0.1);
+  border-radius: 30px !important;
+  margin-right: 20px;
+}
+
+.ImarkIcon {
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+}
+
+.box_history {
+  display: flex;
+  /* width: 100%;
+  max-width:1494px; */
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-left: 30px !important ; */
+  /* margin-right: 96px !important; */
+  margin-top: 24px !important;
+
+  background: #e3edf7;
+  box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
+    6px 6px 12px rgba(12, 0, 58, 0.1);
+  border-radius: 20px;
+}
+
+.box_typohistoryIcons,
+.box_typo_NewCalcultation {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}
+.box_typohistoryIcons {
+  justify-content: space-between !important;
+}
+
+.typo_history {
+  width: 181px;
+  height: 40px;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  margin: 8px 0px 0px 30px !important ;
+}
+.box_MainInputsMark {
+  display: flex !important;
+  flex-direction: flex-end !important;
+  justify-content: flex-end !important;
+  margin-right: 40px;
+}
+
+.box_MainInputsComponent {
+  display: flex;
+  max-height: 280px;
+  flex-direction: column;
+  /* overflow-y: scroll; */
+  margin-top: 71px !important;
+  margin-bottom: 59px !important;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding-right: 20px;
+}
+
+/* width */
+.box_MainInputsComponent::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.box_MainInputsComponent::-webkit-scrollbar-track {
+  box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5),
+    inset 3px 3px 6px rgba(12, 0, 58, 0.1);
+  border-radius: 3px;
+}
+
+/* Handle */
+.box_MainInputsComponent::-webkit-scrollbar-thumb {
+  background: #62617f;
+  /* opacity: 0.5; */
+  border-radius: 10px;
+  /* transform: rotate(180deg); */
+}
+
+/* Handle on hover */
+/* .box_MainInputsComponent::-webkit-scrollbar-thumb:hover {
+    background: #62617F;
+  } */
+
+/* .box_MainIconBar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+.box_marker {
+  margin-top: 16px;
+  width: 6px;
+  height: 261px;
+
+  background: #e3edf7;
+  box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5),
+    inset 3px 3px 6px rgba(12, 0, 58, 0.1);
+  border-radius: 3px;
+  transform: rotate(180deg);
+  margin-right: 20px;
+}
+.highlight {
+  overflow: "scroll";
+  width: 4px;
+  height: 137px;
+  background: #62617f;
+  opacity: 0.5;
+  border-radius: 10px;
+  transform: rotate(180deg);
+}
+
+@media screen and (max-width: 1460px) {
+  /* .box_mainNewCalulation {
+    margin-right: 50px !important;
+  } */
+  /* .box_history {
+    margin-right: 50px !important;
+  } */
+  .btn_three {
+    width: 900px !important;
+  }
+  .typo_NewCalcultation {
+    font-size: 22px !important;
+  }
+  .typo_history {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .box_maintecth {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .box_history {
+    display: block !important ;
+  }
+  .box_btnIconMark {
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+
+  .typo_NewCalcultation {
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+  .typo_NewCalcultation {
+    margin-top: 20px !important;
+  }
+  .box_mainNewCalulation {
+    display: block !important ;
+  }
+  .box_btnIcon {
+    /* display: flex !important; */
+    justify-content: space-around !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+  }
+
+  .btn_three {
+    display: block !important;
+    text-align: center;
+    /* justify-content: flex-start !important; */
+  }
+
+  .btn_tech {
+    margin-right: 20px !important;
+  }
+  .btn_advantDisadvant {
+    margin-right: 20px !important;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .btn_three {
+    width: 700px !important;
+  }
+  .btn_vedio {
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .box_mainNewCalulation {
+    width: 600px !important;
+  }
+  .box_history {
+    width: 600px !important;
+  }
+  .btn_three {
+    width: 500px !important;
+  }
+
+  .property_shadowRadius {
+    width: 200px !important ;
+  }
+  .box_btnIconMark {
+    justify-content: flex-start !important;
+  }
+  .box_btnIcon {
+    display: inline !important;
+    margin-right: 20px !important;
+  }
+
+  .box_typo_NewCalcultation {
+    margin-bottom: 20px !important;
+  }
+}
+/* 
+@media screen and (max-width: 900px) {
+   .property_shadowRadius {
+    width: 200px !important ;
+  }
+} */
+
+@media screen and (max-width: 700px) {
+  .btn_three {
+    flex-direction: column;
+  }
+  .btn_tech {
+    margin-bottom: 20px !important;
+  }
+  .btn_advantDisadvant {
+    margin-bottom: 20px !important;
+  }
+}
+
+.btn_zia {
+  width: 80px !important;
+}

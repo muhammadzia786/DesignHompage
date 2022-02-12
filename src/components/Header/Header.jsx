@@ -7,6 +7,7 @@ import Noti from "../../assets/images/noti.png"
 import Profile from "../../assets/images/profile.png"
 import UserInputSection from '../UserInputSection'
 import UserOutputSection from '../UserOutputSection'
+import TechnologySection from "../TechnologySection/index"
 
 const Header = () => {
 
@@ -48,7 +49,8 @@ const Header = () => {
           </div>
         </div>
         {/* <UserInputSection /> */}
-        <UserOutputSection />
+        {/* <UserOutputSection /> */}
+        <TechnologySection />
       </div>
 
 

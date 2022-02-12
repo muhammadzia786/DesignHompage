@@ -10,4 +10,14 @@
 }
 .desc5 {
   width: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.home_section {
+  display: flex;
+  background-color: #e3edf7;
+  /* width: 100% !important; */
+  /* max-width: 1620px !important; */
+  /* height:"100vh";  */
 }
