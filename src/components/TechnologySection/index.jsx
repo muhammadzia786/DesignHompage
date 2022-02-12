@@ -27,7 +27,7 @@ const TechnologySection = () => {
           </Grid>
           <Grid item lg={12} sm={12}>
             <Box className="btn_three">
-              <div className="btn_tech typo_LossTech property_shadowRadius">
+              <div className="typo_LossTech property_shadowRadius">
                 What is a Technology
               </div>
               <div className="btn_advantDisadvant typo_LossTech property_shadowRadius">
