@@ -2,15 +2,18 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  /* background: #e3edf7; */
 }
 
 .aside_section {
-  width: 300px;
-  height: 100vh;
+  width: 330px;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
   background: #e3edf7;
-  padding: 48px 20px 0px 20px;
+  padding: 48px 20px 20px 20px !important;
   z-index: 10055;
-  transition: margin-left 0.3s linear;
+  /* transition: margin-left 0.3s linear; */
   display: flex;
   flex-direction: column;
   box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.7),
@@ -59,11 +62,12 @@
 }
 .side_toggle {
   width: 100%;
+  position: absolute;
+  bottom: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 33px;
-  margin-bottom: 50px;
+  margin: 54px 0px 45px 0px;
 }
 .los_tactics {
   display: flex;
@@ -78,8 +82,9 @@
   background-color: #e3edf7;
   box-shadow: -5px -5px 10px 0px rgba(12, 0, 58, 10%),
     5px 5px 10px 0px rgba(255, 255, 255, 40%);
-  margin-top: 67px;
+  margin: 57px 0px;
 }
+
 .side_bar_card_select {
   gap: 98px;
   align-items: center;
@@ -99,10 +104,16 @@
 .arrow_up {
   cursor: pointer;
 }
+.arrow_down_change {
+  cursor: pointer;
+  -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg);
+}
 .box_headings {
   padding: 43px 0px 0px 1px;
   display: flex;
   gap: 11px;
+  transition: ease-in 0.3s;
   flex-direction: column;
 }
 .side_card_select_content {

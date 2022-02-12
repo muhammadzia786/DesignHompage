@@ -85,7 +85,7 @@ const Aside = () => {
                             <div><img className='' src={Blub} alt="blub_img"></img></div>
                             <div className='card_inner_select_text'>LOS Tactics</div>
                         </div>
-                        <div className='arrow_up' onClick={() => setIsSelectActive(!isSelectActive)}><img src={ArrowUp} /></div>
+                        <div className={isSelectActive == false ? "arrow_down_change" : 'arrow_up'} onClick={() => setIsSelectActive(!isSelectActive)}><img src={ArrowUp} /></div>
                     </div>
                     {isSelectActive && <div className='box_headings'>
                         <div onClick={() => setIsClick("1")} className={isClick == "1" ? 'side_card_select_content_bg' : 'side_card_select_content'}>Storability check</div>

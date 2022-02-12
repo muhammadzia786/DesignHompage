@@ -10,59 +10,131 @@
   font-weight: normal;
   src: url("../../assets/fonts/Segoe\ UI.woff") format("woff");
 }
-.header_section {
-  width: 100%;
-  background-color: #fff;
-  height: auto;
-  padding: 20px;
-  box-shadow: 0 0 35px 0 rgb(154 161 171 / 15%);
-  z-index: -1;
+.control_views {
+  /* max-height: 100vh !important; */
 }
-.header_logo {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-}
-.logo {
-  font-weight: 600;
-  line-height: 39px;
-  font-size: 30px;
-  color: #354e5c;
-  cursor: pointer;
-}
-.header_content {
-  width: 100%;
-  margin-left: 4%;
-  margin-right: 4%;
+.nav_bar_wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
+  width: 100%;
+  background-color: #e3edf7;
+  padding: 38px 30px 0px 40px;
 }
-.header_profile {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+.user_profile_box {
   position: relative;
 }
-.boy_icon {
-  margin-left: 10px;
-}
-.profile_option {
+.open_user_profile_sec {
   position: absolute;
-  top: 100%;
-  left: 10;
-  z-index: 1000;
-  float: right;
-  min-width: 10rem;
-  padding: 0.5rem 0;
-  margin: 0.125rem 0 0;
-  font-size: 1rem;
-  color: #757575;
-  text-align: center;
-  list-style: none;
-  background-color: #fff;
-  background-clip: padding-box;
-  border: 0 solid rgba(15, 15, 15, 0.15);
-  border-radius: 0.25rem;
-  box-shadow: 0 0.5rem 1rem rgb(15 15 15 / 18%);
+  right: 4px;
+  width: 204px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 169px;
+  background-color: #e3edf7;
+  border-radius: 10px;
+
+  margin-top: 9px;
+  padding: 9px 15px 0px 0px;
+  box-shadow: -5px -5px 10px 0px rgba(12, 0, 58, 10%),
+    5px 5px 10px 0px rgba(255, 255, 255, 40%);
+}
+.open_card_heading {
+  font-size: 16px;
+  line-height: 21px;
+  color: #009fff;
+  font-weight: 600;
+  padding-left: 27px;
+}
+.open_card_text {
+  font-size: 16px;
+  line-height: 21px;
+  /* background: rgba(0, 159, 255, 10%); */
+  border-radius: 6px;
+  color: #354e5c;
+  height: 37px;
+  font-weight: 600;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding-left: 27px;
+}
+.open_card_text_bg {
+  font-size: 16px;
+  line-height: 21px;
+  background: rgba(0, 159, 255, 10%);
+  border-radius: 6px;
+  color: #354e5c;
+  height: 37px;
+  font-weight: 600;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  padding-left: 27px;
+}
+.login_user_content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.login_user_profile_sec {
+  display: flex;
+  gap: 30px;
+}
+.login_user_text {
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #354e5c;
+}
+.notification_div {
+  height: 56px;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(12, 0, 58, 10%),
+    -5px -5px 10px 0px rgba(255, 255, 255, 70%);
+  cursor: pointer;
+  background-color: #e3edf7;
+}
+.profile_div {
+  width: 204px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #e3edf7;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  box-shadow: 5px 5px 10px 0px rgba(12, 0, 58, 10%),
+    -5px -5px 10px 0px rgba(255, 255, 255, 70%);
+  cursor: pointer;
+  padding-left: 19px;
+}
+.login_user_img {
+  height: 34px;
+  width: 34px;
+
+  border-radius: 100%;
+}
+.login_user_name {
+  font-weight: 600;
+  line-height: 23px;
+  font-size: 18px;
+  color: #06002bb2 70%;
+}
+.login_user_img_div {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  background-color: #009fff;
+  border-radius: 100%;
+  object-fit: contain;
 }

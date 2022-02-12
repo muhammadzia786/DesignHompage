@@ -1,0 +1,16 @@
+.category_box {
+  width: 392px;
+  height: 37px;
+  background-color: #009fff;
+  border-radius: 10px;
+  padding-left: 9px;
+  display: flex;
+  margin-left: 40px;
+  font-weight: 600;
+  line-height: 22px;
+  font-size: 16px;
+  margin-top: 18px;
+  align-items: center;
+  box-shadow: 6px 6px 12px 0px rgba(12, 0, 58, 10%),
+    -6px -6px 12px 0px rgba(255, 255, 255, 50%);
+}

@@ -1,12 +1,13 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
-.home_section{
-    display:flex;
-    
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-.desc5{
-width: 100%;
+.home_section {
+  display: flex;
+  /* height: 100vh !important; */
+  background-color: #e3edf7;
+}
+.desc5 {
+  width: 100%;
 }
