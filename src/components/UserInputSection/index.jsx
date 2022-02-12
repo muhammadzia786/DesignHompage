@@ -7,9 +7,9 @@ import I from "../../assets/images/i.png"
 const UserInputSection = () => {
     const [DataArray, setDataArray] = useState(DataArray1)
     const changeInput = (e, index) => {
-        console.log("eeeeeeeeeeeee and v", e.target.value, e.target.name, index)
+        console.log("eeeeeeeeeeeee and v", !isNaN(e.target.value.toString()))
         let arr = [...DataArray]
-        arr[index].obj[e.target.name] = Math.abs(e.target.value)
+        arr[index].obj[e.target.name] = !isNaN(e.target.value.toString()) ? Math.abs(e.target.value) : e.target.value
         setDataArray(arr)
     }
 
