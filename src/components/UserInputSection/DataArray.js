@@ -25,10 +25,10 @@ const DataArray1 = [
             s4: "Calc1"
         },
         obj: {
-            s1: "",
-            s2: "",
-            s3: "",
-            s4: "",
+            s1: "high bins",
+            s2: "high bins",
+            s3: "high bins",
+            s4: "high bins",
         },
     },
     {
@@ -297,10 +297,10 @@ const DataArray1 = [
             s4: "Calc1"
         },
         obj: {
-            s1: "",
-            s2: "",
-            s3: "",
-            s4: "",
+            s1: "yes",
+            s2: "yes",
+            s3: "yes",
+            s4: "yes",
         },
     },
     {

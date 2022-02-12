@@ -6,11 +6,19 @@ import LeftArrow from "../../assets/images/leftArrow.png"
 import I from "../../assets/images/i.png"
 const UserInputSection = () => {
     const [DataArray, setDataArray] = useState(DataArray1)
+    const [isValidate, setIsValidate] = useState("")
     const changeInput = (e, index) => {
         console.log("eeeeeeeeeeeee and v", !isNaN(e.target.value.toString()))
         let arr = [...DataArray]
         arr[index].obj[e.target.name] = !isNaN(e.target.value.toString()) ? Math.abs(e.target.value) : e.target.value
         setDataArray(arr)
+    }
+    const isValidateAll = () => {
+        DataArray.map((items, index) => {
+            Object.keys(items.obj).map((button, key) => items.obj[button] === "" ? setIsValidate(false) : setIsValidate(true))
+        }
+        )
+        return isValidate;
     }
 
     const handelSubmit = async () => {
@@ -45,19 +53,24 @@ const UserInputSection = () => {
             "QuantityOfRentedRobots",
             "RentDuration",
         ]
-        console.log("arraylength", DataArray.length, keyArray.length)
-        for (let i = 0; i < DataArray.length; i++) {
-            console.log(i)
-            obj[keyArray[i]] = DataArray[i].obj;
-        }
-        // console.log("output object", obj)
+        if (isValidateAll()) {
+            for (let i = 0; i < DataArray.length; i++) {
+                console.log(i)
+                obj[keyArray[i]] = DataArray[i].obj;
+            }
+            // console.log("output object", obj)
 
-        // try {
-        //     let response = await axios.post("https://localhost:4000/api/save", obj)
-        //     console.log("response", response.data)
-        // } catch (error) {
-        //     console.log("error", error)
-        // }
+            // try {
+            //     let response = await axios.post("https://localhost:4000/api/save", obj)
+            //     console.log("response", response.data)
+            // } catch (error) {
+            //     console.log("error", error)
+            // }
+        } else {
+            window.alert("error occured")
+        }
+
+
 
     }
 
@@ -89,9 +102,9 @@ const UserInputSection = () => {
                                                 <>
                                                     <div>
                                                         {
-                                                            index === 1 || index === 17 ? <div className='users_inputs_content'> <select name={button} value={items.obj[button]} onChange={(e) => changeInput(e, index)} className='user_ip_select' >
-                                                                <option >{index === 17 ? "Yes" : "high bins"}</option>
-                                                                <option >{index === 17 ? "no" : "low bins"}</option>
+                                                            index === 1 || index === 18 ? <div className='users_inputs_content'> <select name={button} value={items.obj[button]} onChange={(e) => changeInput(e, index)} className='user_ip_select' >
+                                                                <option >{index === 18 ? "Yes" : "high bins"}</option>
+                                                                <option >{index === 18 ? "no" : "low bins"}</option>
                                                             </select></div> : <div className='users_inputs_content'><input min={0} type="number" name={button} value={items.obj[button]} placeholder={items.placeholder[button]} onChange={(e) => changeInput(e, index)} className='user_ip' required /></div>
                                                         }
                                                     </div>
