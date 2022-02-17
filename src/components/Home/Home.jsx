@@ -12,8 +12,8 @@ const Home = () => {
       <div className='home_section'>
         <Sidebar />
         <div className='desc5'>  <Header />
-          <UserInputSection />
-          {/* <TechnologySection /> */}
+          {/* <UserInputSection /> */}
+          <TechnologySection />
 
         </div>
 

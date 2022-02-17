@@ -7,7 +7,7 @@ const ButtonOpen = (props) => {
   console.log("zia btnopen", props)
   return (
     <Box>
-      <div className="btn_open">Open</div>
+      <Button className="btn_open">Open</Button>
 
     </Box>
   )

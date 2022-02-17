@@ -3,8 +3,7 @@
   width: 100% !important;
   padding-right: 96px;
   padding-left: 30px;
-  /* max-width: 1620px !important; */
-  /* height:"100vh";  */
+
 }
 
 .typo_LossTech {
@@ -14,34 +13,20 @@
   color: #354e5c !important;
 }
 
-.box_inputComponent {
-  display: flex;
-  /* justify-content: space-around; */
-  /* flex-direction: column; */
-  margin-bottom: 35px;
-  height: 100px;
-}
-
-.typo_losTactics {
-  font-size: 30px !important;
-  line-height: 40px !important;
-  /* margin-top: 38px !important; */
-  /* margin-left: 40px !important; */
-}
-
 .typo_techCalculation {
   font-size: 24px;
   line-height: 32px;
   margin-top: 75px !important;
-  /* margin-left: 60px !important; */
+
 }
+
 .btn_three {
   display: flex;
   justify-content: space-between;
   max-width: 100%;
   width: 1000px;
   margin: 90px 0px 56px 0px !important;
-  /* margin-top: 90px !important; */
+
 }
 
 .property_shadowRadius {
@@ -70,7 +55,7 @@
 }
 .box_mainNewCalulation {
   display: flex;
-  justify-content: space-between;
+
   /* max-width: 1494px;
   width: 100%; */
   align-items: center;
@@ -81,6 +66,13 @@
     6px 6px 12px rgba(12, 0, 58, 0.1);
   border-radius: 20px;
 }
+.box_typohistoryIcons,
+.box_typo_NewCalcultation {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}
+
 .typo_NewCalcultation {
   width: 181px;
   margin-left: 30px !important;
@@ -88,6 +80,13 @@
   line-height: 32;
 }
 
+.box_btnIconMark{
+  display: flex;
+  align-items: center;
+  margin-left: 225px;
+  width: 100%;
+  justify-content: space-between;
+}
 .box_btnIcon {
   display: flex;
   align-items: center;
@@ -95,10 +94,14 @@
 .btn_StartCalculations {
   margin: 18px 10px 21px 18px !important;
 }
+.box_MainImarkIcon{
+  display: flex;
+  justify-content: end;
+}
+
 
 .box_ImarkIcon {
-    width: 40px;
-  
+  width: 40px;
   display: flex;
   /* justify-content: end; */
   margin-right: 20px;
@@ -107,37 +110,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 6px 6px 12px 0px rgba(12, 0, 58, 10%),
-    -6px -6px 12px 0px rgba(255, 255, 255, 50%);
+  box-shadow: 6px 6px 12px 0px rgb(12 0 58 / 10%), -6px -6px 12px 0px rgb(255 255 255 / 50%);
   height: 40px;
 
- 
 }
-
 
 
 .box_history {
   display: flex;
-  /* width: 100%;
-  max-width:1494px; */
   flex-direction: column;
   justify-content: space-between;
-  /* margin-left: 30px !important ; */
-  /* margin-right: 96px !important; */
   margin-top: 24px !important;
-
   background: #e3edf7;
   box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
     6px 6px 12px rgba(12, 0, 58, 0.1);
   border-radius: 20px;
 }
 
-.box_typohistoryIcons,
-.box_typo_NewCalcultation {
-  display: flex;
-  height: 40px;
-  justify-content: center;
-}
 .box_typohistoryIcons {
   justify-content: space-between !important;
 }
@@ -151,85 +140,77 @@
 }
 .box_MainInputsMark {
   display: flex !important;
-  flex-direction: flex-end !important;
-  justify-content: flex-end !important;
-  margin-right: 40px;
+  flex-direction: column !important;
+ 
+  /* margin-right: 40px; */
   margin-top: 30px !important;
+  margin-left: 435px;
 }
 
 .box_MainInputsComponent {
   display: flex;
   max-height: 280px;
   flex-direction: column;
-  /* overflow-y: scroll; */
-  /* margin-top: 71px !important; */
   margin-bottom: 59px !important;
   overflow-y: auto;
   scrollbar-gutter: stable;
-  padding-right: 20px;
+  margin-right: 34px;
+  margin-top: 16px;
+  /* padding-right: 20px; */
 }
 
-/* width */
 .box_MainInputsComponent::-webkit-scrollbar {
   width: 4px;
 }
 
-/* Track */
+
 .box_MainInputsComponent::-webkit-scrollbar-track {
   box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5),
     inset 3px 3px 6px rgba(12, 0, 58, 0.1);
   border-radius: 3px;
 }
 
-/* Handle */
+
 .box_MainInputsComponent::-webkit-scrollbar-thumb {
   background: #62617f;
-  /* opacity: 0.5; */
+ 
   border-radius: 10px;
-  /* transform: rotate(180deg); */
-}
+ 
+} 
 
-/* Handle on hover */
-/* .box_MainInputsComponent::-webkit-scrollbar-thumb:hover {
-    background: #62617F;
-  } */
 
-/* .box_MainIconBar {
-  margin-top: 20px;
+
+
+.box_inputComponent {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
-
-.box_marker {
-  margin-top: 16px;
-  width: 6px;
-  height: 261px;
-
-  background: #e3edf7;
-  box-shadow: inset -3px -3px 6px rgba(255, 255, 255, 0.5),
-    inset 3px 3px 6px rgba(12, 0, 58, 0.1);
-  border-radius: 3px;
-  transform: rotate(180deg);
-  margin-right: 20px;
-}
-.highlight {
-  overflow: "scroll";
-  width: 4px;
-  height: 137px;
-  background: #62617f;
-  opacity: 0.5;
-  border-radius: 10px;
-  transform: rotate(180deg);
+ 
+  margin-bottom: 35px;
+  height: 100px;
 }
 
+@media screen and (max-width: 1717px) {
+  .box_MainInputsMark{
+    margin-left: 300px;
+  }
+  .box_btnIconMark{
+    margin-left: 90px;
+
+  }
+}
+
+@media screen and (max-width: 1509px) {
+  .box_MainInputsMark{
+    margin-left: 250px;
+  }
+  .box_btnIconMark{
+    margin-left: 50px;
+
+  }
+
+
+}
 @media screen and (max-width: 1460px) {
-  /* .box_mainNewCalulation {
-    margin-right: 50px !important;
-  } */
-  /* .box_history {
-    margin-right: 50px !important;
-  } */
+
   .btn_three {
     width: 900px !important;
   }
@@ -239,6 +220,15 @@
   .typo_history {
     font-size: 22px !important;
   }
+
+  .box_MainInputsMark{
+    margin-left: 50px;
+  }
+  .box_btnIconMark{
+    margin-left: 0px;
+
+  }
+
 }
 
 @media screen and (max-width: 1400px) {
@@ -255,12 +245,13 @@
   .box_btnIconMark {
     display: flex !important;
     justify-content: space-around !important;
+    margin-left: 20px !important;
   }
 
-  .typo_NewCalcultation {
+  /* .typo_NewCalcultation {
     display: flex !important;
     justify-content: space-around !important;
-  }
+  } */
   .typo_NewCalcultation {
     margin-top: 20px !important;
   }
@@ -268,7 +259,6 @@
     display: block !important ;
   }
   .box_btnIcon {
-    /* display: flex !important; */
     justify-content: space-around !important;
     margin-top: 20px !important;
     margin-bottom: 20px;
@@ -277,7 +267,6 @@
   .btn_three {
     display: block !important;
     text-align: center;
-    /* justify-content: flex-start !important; */
   }
 
   .btn_tech {
@@ -311,7 +300,8 @@
     width: 200px !important ;
   }
   .box_btnIconMark {
-    justify-content: flex-start !important;
+    justify-content: space-between !important;
+    margin-left: 0px !important;
   }
   .box_btnIcon {
     display: inline !important;
@@ -321,13 +311,11 @@
   .box_typo_NewCalcultation {
     margin-bottom: 20px !important;
   }
-}
-/* 
-@media screen and (max-width: 900px) {
-   .property_shadowRadius {
-    width: 200px !important ;
+  .box_MainInputsMark{
+    margin-left: 10px;
   }
-} */
+}
+
 
 @media screen and (max-width: 700px) {
   .btn_three {

@@ -1,6 +1,6 @@
-* {
+/* * {
   background-color: #e3edf7;
-}
+} */
 .user_input_wrapper {
   display: flex;
   justify-content: space-between;
@@ -9,6 +9,7 @@
 }
 .main_user_inputs_container_wrapper {
   display: flex;
+  /* background-color: #e3edf7; */
 }
 .scrol_views_control {
   /* padding-bottom: 80px; */

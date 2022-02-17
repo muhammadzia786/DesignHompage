@@ -1,15 +1,20 @@
-import React from 'react'
+import React,{useState} from 'react'
 import { Typography, Box, Grid, Button, Input, SvgIcon } from '@mui/material';
 import './inputStyle.css'
 
-export const InputComponent = (props) => {
-  // console.log("props Input", props);
+export const InputComponent = ({name,value,placeholder,onChange}) => {
+
+  
   return (
     <Box className='box_InputComponent'>
       <Input
         type="text"
         className="firstName inputProperty inputBorder"
-        placeholder="First Name"
+        name={name}
+        placeholder={placeholder}
+        value={value}
+        onChange={onChange}
+     
       />
     </Box>
   )
